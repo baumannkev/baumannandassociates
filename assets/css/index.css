@@ -23,7 +23,22 @@
   }
   
   a {
-      color: #A6192E !important;
+      color: #C62430 !important;
+  }
+  
+  ul.social-buttons li a:active,
+  ul.social-buttons li a:focus,
+  ul.social-buttons li a:hover {
+      background-color: #C62430;
+      color: white !important;
+  }
+  
+  #mainNav .navbar-toggler {
+      background-color: #C62430 !important;
+  }
+  
+  button {
+      background-color: #C62430;
   }
   
   a:hover {
