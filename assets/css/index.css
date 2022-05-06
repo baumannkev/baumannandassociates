@@ -1,56 +1,109 @@
-  /* Google Maps */
-  
-  .map-container {
-      overflow: hidden;
-      padding-bottom: 56.25%;
-      position: relative;
-      height: 0;
-  }
-  
-  .map-container iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-  }
-  
-  @media screen and (max-width: 500px) {
-      #office1 {
-          width: 680px;
-          max-height: 200px;
-      }
-  }
-  
-  a {
-      color: #C62430 !important;
-  }
-  
-  ul.social-buttons li a:active,
-  ul.social-buttons li a:focus,
-  ul.social-buttons li a:hover {
-      background-color: #C62430;
-      color: white !important;
-  }
-  
-  #mainNav .navbar-toggler {
-      background-color: #C62430 !important;
-  }
-  
-  button {
-      background-color: #C62430;
-  }
-  
-  a:hover {
-      color: #C62430 !important;
-  }
-  
-  .btn-primary {
-      background-color: #C62430 !important;
-      border-color: #C62430 !important;
-  }
-  
-  .btn-primary:hover {
-      background-color: #A6192E !important;
-      border-color: #A6192E !important;
-  }
+/* Google Maps */
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.hr-break {
+    color: #c62430;
+}
+
+.services {
+    border: none;
+    /* outline: 0; */
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 0.25rem;
+}
+
+.services:hover {
+    background-color: #a6192e;
+}
+
+.insight-buttons .insight-button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.insight-buttons .btn-insight {
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+    background: transparent url(404.png) no-repeat center 30%;
+    background-image: url("404.png");
+    border-radius: 50%;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 125px 35px 15px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.col-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 33%;
+}
+
+.icon-online-retail {
+    background-image: url("https://lidd.ca/wp/wp-content/themes/lidd/images/icons/online-retail.png");
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (max-width: 500px) {
+    #office1 {
+        width: 680px;
+        max-height: 200px;
+    }
+}
+
+a {
+    color: #c62430 !important;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: #c62430;
+    color: white !important;
+}
+
+#mainNav .navbar-toggler {
+    background-color: #c62430 !important;
+}
+
+button {
+    background-color: #c62430;
+}
+
+a:hover {
+    color: #c62430 !important;
+}
+
+.btn-primary {
+    background-color: #c62430 !important;
+    border-color: #c62430 !important;
+}
+
+.btn-primary:hover {
+    background-color: #a6192e !important;
+    border-color: #a6192e !important;
+}
